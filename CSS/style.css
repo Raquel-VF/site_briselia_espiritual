@@ -1,7 +1,7 @@
 
 
 section.hero{
-    background: url(imagens/briselia.png) no-repeat center ;
+    background: url(/imagens/briselia.png) no-repeat center ;
     background-size: cover;
     height: 100vh;
 }
