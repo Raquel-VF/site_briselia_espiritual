@@ -1,0 +1,35 @@
+
+
+.btn-jornada:hover{
+    transform: scale(1.05);
+    
+}
+
+span.badge:hover{
+    background: linear-gradient(90deg, #19875498, #ffc10796);
+    border:1px solid #198754;
+    transform: scale(1.05);
+}
+
+.card img, 
+.card video {
+  transition: transform 0.3s ease;
+  height: 250px; /* altura fixa */
+  object-fit: cover;
+}
+
+.card:hover img,
+.card:hover video {
+  transform: scale(1.1);
+}
+
+.card .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .overlay {
+  opacity: 0.9;
+}
