@@ -33,3 +33,28 @@ span.badge:hover{
 .card:hover .overlay {
   opacity: 0.9;
 }
+
+footer .container, footer a{
+  color:  #66BB6A;
+}
+
+.social-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#66BB6A;
+  color: #0d5c3a;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  
+}
+
+.social-link:hover{
+  background-color: #0d5c3a;
+  color: #66BB6A ;
+  
+}
